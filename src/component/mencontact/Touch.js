@@ -1,7 +1,7 @@
 import React from 'react'
 
 function Touch() {
-  return (
+    return (
     <>
         <section id="services" className="services-area pt-120 pb-90 fix">
             <div className="container">
@@ -11,7 +11,7 @@ function Touch() {
                     <h5>
                         <i className="fal fa-graduation-cap" /> Contact Info
                     </h5>
-                    <h2>Get In Touch</h2>
+                    <h2>Contacts</h2>
                     </div>
                 </div>
                 </div>
@@ -23,9 +23,9 @@ function Touch() {
                     </div>
                     <div className="services-content2">
                         <h5>
-                        <a href="tel:+14440008888">+1 (444) 000-8888</a>
+                        <a href="tel:+998 71 200 03 06">+998 71 200 03 06</a>
                         </h5>
-                        <p>Phone Support</p>
+                        <p>Phone</p>
                     </div>
                     </div>
                 </div>
@@ -37,10 +37,10 @@ function Touch() {
                     <div className="services-content2">
                         <h5>
                         <a href="mailto:jobs@webtrueexample.com">
-                            jobs@webtrueexample.com
+                            jadmission@cambridge.uz
                         </a>
                         </h5>
-                        <p>Email Address</p>
+                        <p>Email:</p>
                     </div>
                     </div>
                 </div>
@@ -50,8 +50,8 @@ function Touch() {
                         <img src="assets/img/bg/contact-icon03.png" alt="image" />
                     </div>
                     <div className="services-content2">
-                        <h5>12/A, New Jone, NYC</h5>
-                        <p>Office Address</p>
+                        <h5>Toshkent sh., Chilonzor tumani, Bunyodkor, Navbahor 24</h5>
+                        <p>Location:</p>
                     </div>
                     </div>
                 </div>
@@ -59,7 +59,7 @@ function Touch() {
             </div>
         </section>
     </>
-  )
+)
 }
 
 export default Touch

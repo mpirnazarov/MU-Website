@@ -9,7 +9,7 @@ function Form() {
                         <div className="col-lg-12 order-2">
                             <div className="contact-bg">
                                 <div className="section-title center-align text-center mb-50">
-                                    <h2>Custom Inqure Form</h2>
+                                    <h2>Any other questions?  </h2>
                                 </div>
                                 <form action="mail.php" method="post" className="contact-form mt-30 text-center" >
                                     <div className="row">

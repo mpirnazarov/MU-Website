@@ -103,15 +103,15 @@ function Main() {
                                                 <li className="has-sub">
                                                     <Link to="/">Home</Link>
                                                     <ul>
-                                                        <li>
+                                                        {/* <li>
                                                             <Link to="/">University</Link>
-                                                        </li>
-                                                        <li>
+                                                        </li> */}
+                                                        {/* <li>
                                                             <Link to="/home-two">Kindergarten</Link>
                                                         </li>
                                                         <li>
                                                             <Link to="/home-three">High School</Link>
-                                                        </li>
+                                                        </li> */}
                                                     </ul>
                                                 </li>
                                                 <li>
@@ -216,12 +216,12 @@ function Main() {
                                                                     <li>
                                                                         <Link to="/">University</Link>
                                                                     </li>
-                                                                    <li>
+                                                                    {/* <li>
                                                                         <Link to="/home-two">Kindergarten</Link>
-                                                                    </li>
-                                                                    <li>
+                                                                    </li> */}
+                                                                    {/* <li>
                                                                         <Link to="/home-three">High School</Link>
-                                                                    </li>
+                                                                    </li> */}
                                                                 </ul>
                                                             }
                                                             <a className={`mean-expand ${mobile && "mean-clicked"}`} onClick={() => { setEvent(!Events) }} href="#" style={{ fontSize: 18 }}>
